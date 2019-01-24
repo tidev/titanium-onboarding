@@ -68,8 +68,8 @@ Creates a new onboarding view with the specified items and other options.
 | `defaultItemColor` | `String` | The default item background color if none specified in the item (defauts to `white`). |
 | `defaultItemTitleColor` | `String` | The default color of the title text if none specified in the item (defauts to `black`). |
 | `defaultItemDescriptionColor` | `String` | The default color of the description text if none specified in the item (defauts to `gray`). |
-| `defaultItemTitleFont` | `String | Font` | The default font of the title text if none specified in the item (defauts to 36pt bold system font). |
-| `defaultItemDescriptionFont` | `String | Font` | The default item background color of none specified in the item (defauts to 14pt system font). |
+| `defaultItemTitleFont` | `String \| Font` | The default font of the title text if none specified in the item (defauts to 36pt bold system font). |
+| `defaultItemDescriptionFont` | `String \| Font` | The default item background color of none specified in the item (defauts to 14pt system font). |
 | `pageItemColor` | `Function` | Optional function that can be used to adjust the color of an item's bottom page indicator. Receives the item index as a parameter. |
 | `pageItemRadius` | `Number` | Radius of the bottom page indicator for an item (defaults to `8`). |
 | `pageItemSelectedRadius` | `Number` | Radius of the bottom page indicator for the selected item (defaults to `22`). |
@@ -107,13 +107,13 @@ Each item represents a page during the onboarding process.
 | --- | --- | --- |
 | `title` | `String` | Title of the onboarding item |
 | `description` | `String` | Description of the onboarding item |
-| `informationImage` | `String | Ti.File | Ti.Blob` | Big information image of the onboarding item |
-| `pageIcon` | `String | Ti.File | Ti.Blob` | Page icon of the item at the bottom of the onboarding screen |
+| `informationImage` | `String \| Ti.File \| Ti.Blob` | Big information image of the onboarding item |
+| `pageIcon` | `String \| Ti.File \| Ti.Blob` | Page icon of the item at the bottom of the onboarding screen |
 | `color` | `String` | Background color of the onboarding item (optional) |
 | `titleColor` | `String` | Color of the title text (optional) |
 | `descriptionColor` | `String` | Color of the description text (optional) |
-| `titleFont` | `String | Font` | Font of the title text (optional) |
-| `descriptionFont` | `String | Font` | Font of the description text (optional) |
+| `titleFont` | `String \| Font` | Font of the title text (optional) |
+| `descriptionFont` | `String \| Font` | Font of the description text (optional) |
 
 ## Contributions
 
