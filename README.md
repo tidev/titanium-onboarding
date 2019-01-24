@@ -9,7 +9,7 @@ Titanium module for the popular [PaperOnboarding ](https://github.com/Ramotion/p
 
 **NOTE**: The iOS module is built with Swift 4.2. Because of Swift's still missing ABI stability, you need to have the same Swift version installed that was used to build the release version of this module. You can check your current Swift version by using `swift -v` from the terminal.
 
-# Installation
+## Installation
 
 Install the module to your project or globally by copying it into the modules folder. After that enable it in your tiapp.xml.
 
