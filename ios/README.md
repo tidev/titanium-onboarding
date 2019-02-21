@@ -1,4 +1,4 @@
-# Socket.io iOS module
+# PaperOnboarding iOS module
 
 This is the iOS part of the ti.onboarding module.
 
