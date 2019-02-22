@@ -9,6 +9,6 @@ TITANIUM_SDK_VERSION = 8.0.0.v20190114160512
 //
 // THESE SHOULD BE OK GENERALLY AS-IS
 //
-TITANIUM_SDK = /Users/jvennemann/Library/Application Support/Titanium/mobilesdk/osx/8.0.0.v20190114160512
+TITANIUM_SDK = /Users/${USER}/Library/Application Support/Titanium/mobilesdk/osx/${TITANIUM_SDK_VERSION}
 HEADER_SEARCH_PATHS = $(inherited) "$(TITANIUM_SDK)"
 FRAMEWORK_SEARCH_PATHS = $(inherited) "$(TITANIUM_SDK)/iphone/Frameworks"
