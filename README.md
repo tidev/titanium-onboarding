@@ -5,7 +5,7 @@ Titanium module for the popular [PaperOnboarding ](https://github.com/Ramotion/p
 ## Requirements
 
 - [x] Titanium SDK 8.0.0+
-- [x] iOS: Swift 5.0+
+- [x] iOS: Xcode 10.2 / Swift 5.0+
 
 > 💡 The iOS module is built with Swift 5.0 and you need to have the same Swift version installed to be able to use this module. You can check your current Swift version by using `swift -v` from the terminal.
 
