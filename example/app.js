@@ -3,22 +3,25 @@
 // to test out the module and to provide instructions
 // to users on how to use it by example.
 
-var onboarding = require('ti.onboarding');
+var onboarding = require('ti.onboarding')
 
 var onboardingView = onboarding.createView({
-	items: [{
-		title: "Titanium + Swift",
-    description: "Native modules can now be written in Swift!",
-    informationImage: '/images/titanium-logo.png',
-		pageIcon: '/images/titanium-logo.png'
-	}, {
-		title: "Get Swifty",
-    description: "Use all the neat Swift features in your module!",
-    informationImage: '/images/swift-logo.png',
-    pageIcon: '/images/swift-logo.png',
-    color: '#ff9500'
-	}],
-	/*
+  items: [
+    {
+      title: 'Titanium + Swift',
+      description: 'Native modules can now be written in Swift!',
+      informationImage: '/images/titanium-logo.png',
+      pageIcon: '/images/titanium-logo.png'
+    },
+    {
+      title: 'Get Swifty',
+      description: 'Use all the neat Swift features in your module!',
+      informationImage: '/images/swift-logo.png',
+      pageIcon: '/images/swift-logo.png',
+      color: '#ff9500'
+    }
+  ]
+  /*
 	// Optional callbacks
   beforeTransition: index => {
     console.log(`beforeTransition ${index}`)
@@ -42,5 +45,7 @@ var onboardingView = onboarding.createView({
 	pageItemSelectedRadius: 20
 	*/
 })
-win.add(onboardingView);
-win.open();
+
+let win = Ti.UI.createWindow()
+win.add(onboardingView)
+win.open()
