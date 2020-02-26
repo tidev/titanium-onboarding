@@ -3,9 +3,10 @@
 // to test out the module and to provide instructions
 // to users on how to use it by example.
 
-var onboarding = require('ti.onboarding');
+const onboarding = require('ti.onboarding');
 
-var onboardingView = onboarding.createView({
+const win = Ti.UI.createWindow();
+const onboardingView = onboarding.createView({
 	items: [{
 		title: "Titanium + Swift",
     description: "Native modules can now be written in Swift!",
@@ -13,7 +14,8 @@ var onboardingView = onboarding.createView({
 		pageIcon: '/images/titanium-logo.png'
 	}, {
 		title: "Get Swifty",
-    description: "Use all the neat Swift features in your module!",
+		description: "Use all the neat Swift features in your module!",
+		descriptionColor: 'white',
     informationImage: '/images/swift-logo.png',
     pageIcon: '/images/swift-logo.png',
     color: '#ff9500'
